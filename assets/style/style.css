@@ -51,6 +51,7 @@ header nav a {
 	background-position: center;
 	display: flex;
 	position: relative;
+	background-color: black;
 }
 
 #hero h1 {
