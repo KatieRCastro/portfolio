@@ -98,5 +98,6 @@ header nav a {
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(2, auto);
 	text-align: center;
-	gap: 10px;
+	gap: 80px;
+	margin: 0 200px 0;
 }
