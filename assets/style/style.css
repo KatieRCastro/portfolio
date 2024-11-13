@@ -45,7 +45,7 @@ header nav a {
 }
 
 #hero {
-	background-image: url(/assets/media/portfoliohero.jpg);
+	background-image: url(../media/portfoliohero.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
