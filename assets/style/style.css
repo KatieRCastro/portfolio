@@ -82,3 +82,12 @@ header nav a {
 .about-p {
 	margin-left: 143px;
 }
+.highlighted {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#portfolio h2 {
+	font-size: 60px;
+	margin: 143px;
+}
