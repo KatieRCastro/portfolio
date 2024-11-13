@@ -90,4 +90,13 @@ header nav a {
 #portfolio h2 {
 	font-size: 60px;
 	margin: 143px;
+	
+}
+
+.portfolio-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, auto);
+	text-align: center;
+	gap: 10px;
 }
