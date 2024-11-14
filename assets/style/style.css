@@ -131,3 +131,14 @@ header nav a {
 	font-size: 60px;
 	margin: 143px;
 }
+
+.contact-links  {
+	text-align: center;
+}
+
+.contact-links img {
+    width: 1000px;
+    height: 300px;
+    object-fit: cover;
+	margin-bottom: 143PX;
+}
