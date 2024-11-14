@@ -118,6 +118,12 @@ header nav a {
 	display: flex;
 	justify-content: center;
 	gap: 80px;
+
+}
+.document-links img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
 }
 
 
