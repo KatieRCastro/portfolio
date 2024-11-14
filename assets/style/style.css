@@ -142,3 +142,12 @@ header nav a {
     object-fit: cover;
 	margin-bottom: 143PX;
 }
+
+footer nav ul {
+margin: auto;
+}
+
+footer nav a {
+color: white;
+text-decoration: none;
+}
