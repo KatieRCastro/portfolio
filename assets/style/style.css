@@ -102,3 +102,9 @@ header nav a {
 	gap: 80px;
 	margin: 0 200px 0;
 }
+.portfolio-item img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; 
+    display: block;
+}
