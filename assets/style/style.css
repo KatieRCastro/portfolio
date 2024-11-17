@@ -158,7 +158,13 @@ footer nav a {
 	margin-bottom: 143px;
 }
 
+.design-text img {
+	 width: 500px;
+	height: 400px;
+	object-fit: cover;
+	
 
+}
 
 #design h2 {
 	font-size: 60px;
@@ -168,6 +174,7 @@ footer nav a {
 .design-p {
 	margin-left: 143px;
 }
+
 .highlighted {
 	font-size: 20px;
 	font-weight: bold;
