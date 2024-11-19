@@ -295,3 +295,32 @@ footer nav a {
 	font-size: 20px;
 	font-weight: bold;
 }
+
+.database-text {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 20px;
+	margin: 0 200px 0;
+	margin-bottom: 143px;
+}
+
+.database-text img {
+	width: 500px;
+	height: 400px;
+	object-fit: cover;
+}
+
+#database h2 {
+	font-size: 60px;
+	margin: 143px;
+}
+
+.database-p {
+	margin-left: 143px;
+}
+
+.highlighted {
+	font-size: 20px;
+	font-weight: bold;
+}
