@@ -120,22 +120,27 @@ header nav a {
 	height: 300px;
 	object-fit: cover;
 	display: block;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 #documents h2 {
 	font-size: 60px;
 	margin: 143px;
+	
 }
 
 .document-links {
 	display: flex;
 	justify-content: center;
 	gap: 80px;
+	flex-wrap: wrap;
 }
 .document-links img {
-	width: 500px;
-	height: 300px;
+	width: 100%;
+	max-width: 500px;
+	height: auto;
 	object-fit: cover;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 #contact h2 {
@@ -372,9 +377,27 @@ footer nav a {
 		margin-right:0;
     }
 	#portfolio h2 {
+		margin: 50px 0;
 		text-align: center;
 		margin-left: 0;
 		margin-right: 0;
+	}
+
+	.document-links {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 30px; 
+    }
+    #documents h2 {
+        margin: 50px 0; 
+		text-align: center;
+		margin-left: 0;
+		margin-right: 0;
+    }
+
+	.document-links img {
+		max-width: 300px;
+		height: 300px;
 	}
 
 }
