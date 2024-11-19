@@ -10,7 +10,6 @@ html {
 
 a:hover {
   color: yellow;
- 
 }
 
 body {
@@ -74,10 +73,18 @@ header nav a {
 
 .about-text {
 	display: flex;
-	flex-direction: row;
-	align-items: center;
-	gap: 20px;
-	margin: 0 200px 0;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between;
+    text-align: left; 
+    gap: 20px; 
+	margin: 143px;
+}
+.about-image {
+    max-width: 100%; 
+    height: auto;
+    margin: 0 auto;
+    display: block; 
 }
 
 #about h2 {
@@ -328,4 +335,26 @@ footer nav a {
 .highlighted {
 	font-size: 20px;
 	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .about-text {
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+		margin: 0;
+    }
+	.about-p {
+		margin-left: 0;
+	}
+    .about-image {
+        margin-bottom: 20px; 
+    }
 }
