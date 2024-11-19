@@ -440,8 +440,11 @@ footer nav a {
 		height: 400px;
     }
 
-	#designsection h2 {
+	#design  h2 {
+		margin: 50px 0; 
 		text-align: center;
+		margin-left: 0;
+		margin-right: 0;
 	}
 
 
@@ -462,10 +465,107 @@ footer nav a {
 		height: 400px;
     }
 
-	#websection h2 {
+	#web h2 {
+		margin: 50px 0; 
 		text-align: center;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.programming-text {
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+		margin: 40px;
+    }
+	.programming-p {
+		margin-left: 0;
+	}
+
+    .programming-text img {
+        margin-bottom: 20px; 
+		max-width: 400px;
+		height: 400px;
+    }
+
+	#programming h2 {
+		margin: 50px 0; 
+		text-align: center;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+
+	.writing-text {
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+		margin: 40px;
+    }
+	.writing-p {
+		margin-left: 0;
+	}
+
+    .writing-text img {
+        margin-bottom: 20px; 
+		max-width: 400px;
+		height: 400px;
+    }
+
+	#writing h2 {
+		margin: 50px 0; 
+		text-align: center;
+		margin-left: 0;
+		margin-right: 0;
 	}
 	
+	.interpersonal-text {
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+		margin: 40px;
+    }
+	.interpersonal-p {
+		margin-left: 0;
+	}
+
+    .interpersonal-text img {
+        margin-bottom: 20px; 
+		max-width: 400px;
+		height: 400px;
+    }
+
+	#interpersonal h2 {
+		margin: 50px 0; 
+		text-align: center;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+
+
+	.database-text {
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+		margin: 40px;
+    }
+	.database-p {
+		margin-left: 0;
+	}
+
+    .database-text img {
+        margin-bottom: 20px; 
+		max-width: 400px;
+		height: 400px;
+    }
+
+	#database h2 {
+		margin: 50px 0; 
+		text-align: center;
+		margin-left: 0;
+		margin-right: 0;
+	}
 }
 
 
