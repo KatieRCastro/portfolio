@@ -8,6 +8,11 @@ html {
 	box-sizing: inherit;
 }
 
+a:hover {
+  color: yellow;
+ 
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -39,7 +44,7 @@ nav li {
 header nav a {
 	color: white;
 	text-decoration: none;
-	font-size: 30px;
+	font-size: 25px;
 	padding: 5px 10px;
 	font-weight: bolder;
 }
